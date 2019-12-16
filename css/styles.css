@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    min-height: 100%;
+    font: 300 1.8rem/2 'Lato', sans-serif;
+    color: #444;
+}
+
+a, button {
+    transition: all .4s ease-in;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.2rem;
+    margin-top: 0 auto 20px;
+}
+
+section {
+    background-color: #fff;
+    max-width: 1400px;
+    margin: 130px auto;
+}
+
+.list {
+    padding: 100px 130px;
+    box-shadow: 0 0 80px rgba(5, 5, 5, 0.3)
+}
+
+.list__letter {
+    float: left;
+    font-family: 'Playfair Display', serif;
+    font-size: 11rem;
+    padding: 0 30px 0 2px;
+    line-height: .95;
+}
+
+.list__letter--quote {
+    font-size: 6rem;
+    line-height: 0.7;
+}
+
+.list__text--quote {
+    font-size: 2.4rem;
+    font-style: italic;
+    padding-bottom: 35px;
+}
+
+h1 + p + p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    border: 2px solid #eaa258;
+    padding: 25px 70px;
+    text-transform: uppercase;
+    line-height: 2;
+    font-weight: bold;
+    color: #eaa258;
+    letter-spacing: 5px;
+
+}
+
+.btn:focus,
+.btn:active,
+.btn:hover {
+    color: #fff;
+    background-color: #eaa258;
+}
